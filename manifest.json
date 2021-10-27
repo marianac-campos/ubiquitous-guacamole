@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+
+    "name": "First Chrome Extension",
+    "description": "My first Chrome extension!",
+    "version": "1.0",
+    "author": "Mariana Campos",
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html",
+        "default_title": "My custom Google Extension"
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}
